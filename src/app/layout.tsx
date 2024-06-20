@@ -13,12 +13,12 @@ export const metadata: Metadata = {
 export default function RootLayout({
   children
   ,
-  // left,right,
+  left,right,
   auth
 }: Readonly<{
   children: React.ReactNode;
-  // left: React.ReactNode;
-  // right: React.ReactNode;
+  left: React.ReactNode;
+  right: React.ReactNode;
   auth: React.ReactNode
 }>) {
   return (
